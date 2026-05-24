@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Local/editor
+.idea/
+.vscode/
+*.log
+
+# Project-local artifacts
+sdscan-test.txt
+structure.txt
+exampleScan.txt
+project-requirements-rough-sketch.txt
+test1.txt
+
+# OS
+.DS_Store
+Thumbs.db
