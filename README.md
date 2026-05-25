@@ -67,37 +67,37 @@ The version 0.1.0 is published and ready to use
 
 SDScan is currently installable directly from the GitHub repository.
 
-```
-Windows:
+### Windows(Powershell):
 
-powershell
+```powershell
 git clone https://github.com/Condor-1/Data-Discovery-Scanner.git
 cd Data-Discovery-Scanner
 python -m pip install -e .
 sdscan --version
+```
 
-MacOS/Linux:
+### MacOS/Linux:
 
+```bash
 git clone https://github.com/Condor-1/Data-Discovery-Scanner.git
 cd Data-Discovery-Scanner
 python3 -m pip install -e .
 sdscan --version
+```
 
-After Installation:
+### After Installation:
 
 Scan the examples forlder to test: 
 
-sdscan scan ./examples
+- sdscan scan ./examples
 
-For Windows:
+#### For Windows:
 
-sdscan scan "C:\path\to\folder"
+- sdscan scan "C:\path\to\folder"
 
-For MacOS/Linux:
+#### For MacOS/Linux:
 
-sdscan scan /path/to/folder
-
-```
+- sdscan scan /path/to/folder
 
 ---
 
