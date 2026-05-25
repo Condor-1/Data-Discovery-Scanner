@@ -89,15 +89,21 @@ sdscan --version
 
 Scan the examples forlder to test: 
 
-- sdscan scan ./examples
+```bash
+sdscan scan ./examples
+ ```
 
 #### For Windows:
 
-- sdscan scan "C:\path\to\folder"
+```Powershell
+sdscan scan "C:\path\to\folder"
+```
 
 #### For MacOS/Linux:
 
-- sdscan scan /path/to/folder
+```bash
+sdscan scan /path/to/folder
+```
 
 ---
 
