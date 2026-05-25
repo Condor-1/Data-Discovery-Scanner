@@ -38,21 +38,24 @@ Scripts:
 
 ## Project Layout
 
+
 ```text
 src/sensitive_data_scanner/
-  cli.py                 CLI entry point.
-  scanner.py             Main scan orchestration.
-  findings.py            Finding and severity models.
-  config.py              Supported extensions and ignored directories.
-  detection/
-    patterns.py          Sensitive data regex rules.
-    script_warnings.py   Script safety warning rules.
-    masking.py           Masked preview helpers.
-  io/
-    file_walker.py       Recursive file discovery and filtering.
-    text_reader.py       Safe line-by-line text reading.
-  reporting/
-    console.py           Human-readable CLI output.
+├── cli.py              # CLI entry point
+├── scanner.py          # Scan orchestration
+├── findings.py         # Finding models
+├── config.py           # Extensions and exclusions
+│
+├── detection/
+│   ├── patterns.py     # Regex detection rules
+│   └── script_warnings.py
+│
+├── io/
+│   ├── file_walker.py
+│   └── text_reader.py
+│
+└── reporting/
+    └── console.py      # CLI output formatting
 ```
 
 ---
